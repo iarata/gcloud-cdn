@@ -1,15 +1,5 @@
-# 👷 `worker-template` Hello World
+# 👷 `gcloud-cdn` GCloud-CDN Worker
 
-A template for kick starting a Cloudflare worker project.
+A script for using Google Cloud Storage as a CDN in Cloudflare Worker
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
-
-#### Wrangler
-
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+[`index.js`](https://github.com/iarata/gcloud-cdn/blob/main/index.js) is the content of the Workers script.
